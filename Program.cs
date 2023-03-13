@@ -12,20 +12,20 @@ else {
 
 
 Console.WriteLine("Введите первое число  ");
-int num_1 = int.Parse(Console.ReadLine()!);
+int num_f = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите второе число  ");
 int num_2 = int.Parse(Console.ReadLine()!);
 Console.WriteLine("Введите третье число  ");
 int num_3 = int.Parse(Console.ReadLine()!);
 
-int [] array_max = {num_1, num_2, num_3};
+int [] array_max = {num_f, num_2, num_3};
 
 Console.WriteLine(array_max.Max());
 
 
 Console.WriteLine("Введите число ");
-int num_1 = int.Parse(Console.ReadLine()!);
-if (num_1 % 2 == 0){
+int num_a = int.Parse(Console.ReadLine()!);
+if (num_a % 2 == 0){
     Console.WriteLine("Число четное");
 }
 else {Console.WriteLine("Число нечетное");}
