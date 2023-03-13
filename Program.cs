@@ -29,3 +29,14 @@ if (num_a % 2 == 0){
     Console.WriteLine("Число четное");
 }
 else {Console.WriteLine("Число нечетное");}
+
+
+Console.WriteLine("Введите число n ");
+int n = int.Parse(Console.ReadLine()!);
+int a = 1;
+while (a < n){
+    if (a % 2 == 0){
+        Console.Write($", {a}");
+    }
+    a++;
+}
