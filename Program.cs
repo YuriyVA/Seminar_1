@@ -23,3 +23,9 @@ int [] array_max = {num_1, num_2, num_3};
 Console.WriteLine(array_max.Max());
 
 
+Console.WriteLine("Введите число ");
+int num_1 = int.Parse(Console.ReadLine()!);
+if (num_1 % 2 == 0){
+    Console.WriteLine("Число четное");
+}
+else {Console.WriteLine("Число нечетное");}
